@@ -12,7 +12,7 @@ import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 
 const routes = [
   { name: "Home", href: "/" },
-  { name: "Features", href: "/#features" },
+  { name: "Capabilities", href: "/#capabilities" },
   {
     name: "Documentation",
     href: "https://www.touha.dev/posts/simple-nextjs-t3-authentication-with-lucia",

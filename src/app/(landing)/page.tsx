@@ -19,92 +19,41 @@ import {
 import CardSpotlight from "./_components/hover-card";
 
 export const metadata: Metadata = {
-  title: "Next.js Lucia Auth Starter Template",
+  title: "Braun Goodson | Agentic Engineer for AI Solutions",
   description:
-    "A Next.js starter template with nextjs and Lucia auth. Includes drizzle, trpc, react-email, tailwindcss and shadcn-ui",
+    "Braun Goodson delivers cutting-edge AI agents, automation, and chatbots for research, product development, and content creation.",
 };
-
-const githubUrl = "https://github.com/iamtouha/next-lucia-auth";
-
-const features = [
-  {
-    name: "Next.js",
-    description: "The React Framework for Production",
-    logo: NextjsIcon,
-  },
-  {
-    name: "React.js",
-    description: "Server and client components.",
-    logo: ReactJs,
-  },
-  {
-    name: "Authentication",
-    description: "Credential authentication with password reset and email validation",
-    logo: LuciaAuth,
-  },
-  {
-    name: "Database",
-    description: "Drizzle with postgres database",
-    logo: Drizzle,
-  },
-  {
-    name: "TypeSafe Backend",
-    description: "Preserve type safety from backend to frontend with tRPC",
-    logo: TRPC,
-  },
-  {
-    name: "Subscription",
-    description: "Subscription with stripe",
-    logo: StripeLogo,
-  },
-  {
-    name: "Tailwindcss",
-    description: "Simple and elegant UI components built with Tailwind CSS",
-    logo: TailwindCss,
-  },
-  {
-    name: "Shadcn UI",
-    description: "A set of beautifully designed UI components for React",
-    logo: ShadcnUi,
-  },
-  {
-    name: "React Email",
-    description: "Write emails in React with ease.",
-    logo: ReactEmail,
-  },
-];
 
 const HomePage = () => {
   return (
     <>
-      <section className="mx-auto grid min-h-[calc(100vh-300px)] max-w-5xl flex-col  items-center justify-center gap-4 py-10 text-center  md:py-12">
+      <section className="mx-auto grid min-h-[calc(100vh-300px)] max-w-5xl flex-col items-center justify-center gap-4 py-10 text-center md:py-12">
         <div className="p-4">
           <div className="mb-10 flex items-center justify-center gap-3">
             <NextjsIcon className="h-[52px] w-[52px]" />
             <PlusIcon className="h-8 w-8" />
             <LuciaAuth className="h-14 w-14" />
           </div>
-          <h1 className="text-balance bg-gradient-to-tr  from-black/70 via-black to-black/60 bg-clip-text text-center text-3xl font-bold text-transparent dark:from-zinc-400/10 dark:via-white/90 dark:to-white/20  sm:text-5xl md:text-6xl lg:text-7xl">
-            Next.js Lucia Auth Starter Template
+          <h1 className="text-balance bg-gradient-to-tr from-black/70 via-black to-black/60 bg-clip-text text-center text-3xl font-bold text-transparent dark:from-zinc-400/10 dark:via-white/90 dark:to-white/20 sm:text-5xl md:text-6xl lg:text-7xl">
+            AI Engineering for Business Optimization
           </h1>
           <p className="mb-10 mt-4 text-balance text-center text-muted-foreground md:text-lg lg:text-xl">
-            A Next.js Authentication starter template (password reset, email validation and oAuth).
-            Includes Lucia, Drizzle, tRPC, Stripe, tailwindcss, shadcn-ui and react-email.
+            Braun Goodson specializes in architecting AI agents, automation pipelines, and intelligent chatbots that accelerate research, streamline development, and scale content generation. Purpose-built AI, tailored to drive results.
           </p>
           <div className="mb-10">
             <div className="mx-auto max-w-[430px]">
-              <CopyToClipboard text={"git clone " + githubUrl} />
+              <CopyToClipboard text={"Contact: brn@gdsn.fyi"} />
             </div>
           </div>
           <div className="flex justify-center gap-4">
             <Button size="lg" variant="outline" asChild>
-              <a href={githubUrl}>
+              <a href="https://github.com/brngdsn" target="_blank">
                 <GitHubLogoIcon className="mr-1 h-5 w-5" />
                 GitHub
               </a>
             </Button>
             <Button size="lg" asChild>
-              <Link href="/login">Get Started</Link>
+              <Link href="/contact">Work with Braun</Link>
             </Button>
           </div>
         </div>
@@ -112,14 +61,44 @@ const HomePage = () => {
       <section>
         <div className="container mx-auto lg:max-w-screen-lg">
           <h1 className="mb-4 text-center text-3xl font-bold md:text-4xl lg:text-5xl">
-            <a id="features"></a> Features
+            <a id="capabilities"></a>Capabilities
           </h1>
           <p className="mb-10 text-balance text-center text-muted-foreground md:text-lg lg:text-xl">
-            This starter template is a guide to help you get started with Next.js for large scale
-            applications. Feel free to add or remove features to suit your needs.
+            End-to-end AI solutions across research, development, and deployment. Braun’s engineering unlocks efficiency, scale, and innovation through advanced AI systems.
           </p>
           <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
-            {features.map((feature, i) => (
+            {[
+              {
+                name: "AI Agents",
+                description: "Deploy autonomous agents for data gathering, analysis, and decision-making.",
+                logo: NextjsIcon,
+              },
+              {
+                name: "AI Automation",
+                description: "Design AI-driven workflows to streamline operations and reduce manual effort.",
+                logo: TRPC,
+              },
+              {
+                name: "AI Chatbots",
+                description: "Build conversational interfaces that enhance customer experience and engagement.",
+                logo: ReactJs,
+              },
+              {
+                name: "Research Pipelines",
+                description: "Automate deep research tasks using AI for competitive insights and trend analysis.",
+                logo: Drizzle,
+              },
+              {
+                name: "Product Integrations",
+                description: "Integrate AI capabilities into SaaS products, applications, and internal tools.",
+                logo: StripeLogo,
+              },
+              {
+                name: "Content Generation",
+                description: "Leverage AI to generate high-quality content at scale across formats and channels.",
+                logo: ReactEmail,
+              },
+            ].map((feature, i) => (
               <CardSpotlight
                 key={i}
                 name={feature.name}
@@ -133,6 +112,7 @@ const HomePage = () => {
     </>
   );
 };
+
 
 export default HomePage;
 

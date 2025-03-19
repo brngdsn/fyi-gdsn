@@ -60,7 +60,7 @@ Add the following environment variables to your **github actions repository secr
 
 - [ ] Update Password
 - [x] Stripe Integration
-<!-- - [x] API Rate-Limiting see branch - [upstash-ratelimiting](https://github.com/iamtouha/next-lucia-auth/tree/upstash-ratelimiting) -->
+<!-- - [x] API Rate-Limiting see branch - [upstash-ratelimiting](https://github.com/brngdsn/fyi-gdsn/tree/upstash-ratelimiting) -->
 - [ ] Admin Dashboard (under consideration)
 - [ ] Role-Based Access Policy (under consideration)
 

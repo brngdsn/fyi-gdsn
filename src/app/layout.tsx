@@ -13,8 +13,8 @@ export const metadata: Metadata = {
     default: APP_TITLE,
     template: `%s | ${APP_TITLE}`,
   },
-  description: "Acme - Simple auth with lucia and trpc",
-  icons: [{ rel: "icon", url: "/icon.png" }],
+  description: "GDSN.FYI - Braun Goodson, Agentic Engineer",
+  icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
 export const viewport: Viewport = {
