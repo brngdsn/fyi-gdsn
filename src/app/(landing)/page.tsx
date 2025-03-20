@@ -42,7 +42,7 @@ const HomePage = () => {
           </p>
           <div className="mb-10">
             <div className="mx-auto max-w-[430px]">
-              <CopyToClipboard text={"Contact: brn@gdsn.fyi"} />
+              <CopyToClipboard text={"Contact: brn.gdsn@gmail.com"} />
             </div>
           </div>
           <div className="flex justify-center gap-4">
