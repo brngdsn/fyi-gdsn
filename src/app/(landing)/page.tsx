@@ -53,7 +53,7 @@ const HomePage = () => {
               </a>
             </Button>
             <Button size="lg" asChild>
-              <Link href="/contact">Work with Braun</Link>
+              <Link href="/consultation">Work with Braun</Link>
             </Button>
           </div>
         </div>
@@ -64,7 +64,7 @@ const HomePage = () => {
             <a id="capabilities"></a>Capabilities
           </h1>
           <p className="mb-10 text-balance text-center text-muted-foreground md:text-lg lg:text-xl">
-            End-to-end AI solutions across research, development, and deployment. Braun’s engineering unlocks efficiency, scale, and innovation through advanced AI systems.
+            End-to-end AI solutions across research, development, and deployment. Braun's engineering unlocks efficiency, scale, and innovation through advanced AI systems.
           </p>
           <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
             {[
