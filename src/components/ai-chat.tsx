@@ -49,7 +49,7 @@ export function AIChat() {
   };
 
   return (
-    <div className={`flex flex-col ${hasStartedChat ? 'min-h-[calc(100vh-400px)]' : 'h-[calc(100vh-400px)]'}`}>
+    <div className={`flex flex-col ${hasStartedChat ? 'min-h-[calc(100vh-400px)]' : 'h-[calc(100vh-300px)]'}`}>
       {!hasStartedChat ? (
         <div className="flex-1 flex flex-col items-center justify-center space-y-8">
           <div className="text-center space-y-4">
