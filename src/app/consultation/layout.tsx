@@ -14,7 +14,6 @@ function ConsultationLayout({ children }: { children: ReactNode }) {
     <>
       <Header />
       {children}
-      <div className="h-20"></div>
       <Footer />
     </>
   );
