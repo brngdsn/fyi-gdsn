@@ -132,8 +132,3 @@ div.container.py-16,
 footer.px-4.py-6 {
   padding-bottom: 0rem;
 }
-
-.h-\[calc\(100vh-300px\)\],
-.min-h-\[calc\(100vh-300px\)\] {
-  height: calc(100vh - 200px);
-}

@@ -35,7 +35,7 @@ const HomePage = () => {
             <LuciaAuth className="h-14 w-14" />
           </div>
           <h1 className="text-balance bg-gradient-to-tr from-black/70 via-black to-black/60 bg-clip-text text-center text-3xl font-bold text-transparent dark:from-zinc-400/10 dark:via-white/90 dark:to-white/20 sm:text-5xl md:text-6xl lg:text-7xl">
-            Engineering Business Optimization with AI
+            AI-Powered, Cloud-Agnostic
           </h1>
           <p className="mb-10 mt-4 text-balance text-center text-muted-foreground md:text-lg lg:text-xl">
             Braun Goodson specializes in architecting AI agents, automation pipelines, and intelligent chatbots that accelerate research, streamline development, and scale content generation. Purpose-built AI, tailored to drive results.
@@ -53,7 +53,7 @@ const HomePage = () => {
               </a>
             </Button>
             <Button size="lg" asChild>
-              <Link href="/consultation">Work with Braun</Link>
+              <Link href="https://co.gdsn.fyi">Home Automation Demo</Link>
             </Button>
           </div>
         </div>
